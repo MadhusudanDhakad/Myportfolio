@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Quicksand:wght@300;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@300&family=Source+Sans+3:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Karla:wght@300&family=Neucha&family=Quicksand:wght@300;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@300&family=Source+Code+Pro:wght@200&family=Source+Sans+3:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.maincontainer{
+    height: 100vh;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.blogcontainer{
+    border-radius: 3em;
+    padding: 1.5em 0.5em 0em 1em;
+    margin: 1em 0.5em 0em 0.5em;
+    font-size: 1.1em;
+}
+
+.blogItem{
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogItem .catagories{
+    margin: 1em 1em;
+}
+
+.catagories li{
+    margin-top: 0.5em;
+}
+
+.blogItem .catagories h2{
+    margin: 0.6em 0em;
+    font-size: 1.7em;
+    
+    font-family: signika;
+}
+
+.blogcontainer .h-1{
+    margin: auto;
+    margin-bottom: 0.5em;
+    font-family: signika;
+}
+
+.blogcontainer .h-3{
+    font-size: 1.2em;
+    display: inline;
+    font-family: signika;
+}
+
+.blogcontainer p{
+    font-size: 0.8em;
+    display: inline;
+    font-family: source code pro;
+    font-weight: 600;
+}
+
+.blogItem .catagories button{
+    display: block;
+    margin-top: 0.5em;
+    font-family: signika;
+    font-size: 0.6em;
+}
+
+.connect .followUs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    justify-content: start;
+    margin: 1em;
+}
+
+.followUs img{
+    height: 1.7em;
+}
+
+.followUs .icons{
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+    font-family: signika;
+}
+
+.icons .h-6{
+    font-size: 0.6em;
+}

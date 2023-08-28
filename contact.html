@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon-modified.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Neucha&family=Quicksand:wght@300;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@300&family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar hidemenu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="intro.html">My Intro</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class="maincontent">
+      <div class="menubar">
+        <img src="../images/menu.png" alt="not found" class="menu" width="34">
+        <img src="../images/cross.png" alt="not found" class="cross" width="17">
+      </div>
+        <div class="contactform">
+            <h1>Contact me for work/general Enquiries</h1>
+            <form>
+                <div class="fcomponent">
+                  <label for="Inputname" class="form-label">Name: </label>
+                  <input type="name" class="form-control" id="Inputname">
+                </div>
+                <div class="fcomponent">
+                  <label for="InputEmail" class="form-label">Email address: </label>
+                  <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" minlength="5" maxlength="50">
+                  <div id="emailHelp" class="form-text">*We'll never share your email with anyone else.</div>
+                </div>
+                <div class="fcomponent">
+                  <label for="Inputphone" class="form-label">Mobile No.: </label>
+                  <input type="phone" class="form-control" id="Inputphone" aria-describedby="phoneHelp" minlength="10" maxlength="10">
+                  <div id="phoneHelp" class="form-text">*We'll never share your information with anyone else.</div>
+                </div>
+                <div class="fcomponent">
+                  <label for="Inputenquiry" class="form-label">Enquiry: </label>
+                  <textarea type="enquiry" class="form-control" id="Inputenquiry" aria-describedby="enquiryHelp" minlength="10" maxlength="100"></textarea>
+                </div>
+                <div class="fcomponent form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">*I want you to work on a project with me.</label>
+                </div>
+                <button type="submit" class="btn btn-small">Submit</button>
+              </form>              
+        </div>
+    </div>
+    <script src="../javascript/script.js"></script>
+    </body>
+</html>

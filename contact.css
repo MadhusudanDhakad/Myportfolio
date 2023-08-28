@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Quicksand:wght@300;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@300&family=Source+Sans+3:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: signika;
+}
+
+.maincontent{
+   justify-content: start;
+}
+
+.contactform{
+   margin-top: 3rem;
+}
+
+.contactform form{
+    margin-top: 2em;
+}
+
+.contactform form .form-label{
+    font-weight: bold;
+}
+
+.contactform form .form-control{
+    border-radius: 0.8em;
+    padding: 0.1em;
+}
+
+.contactform form .fcomponent{
+    margin-top: 1em;
+}
+
+.contactform form #InputEmail{
+    width: 100%;
+}
+
+.contactform form #Inputname{
+    width: 100%;
+}
+
+.contactform form #Inputphone{
+    width: 100%;
+}
+
+.contactform form #Inputenquiry{
+    width: 100%;
+}
+
+.contactform form .form-text{
+    font-size: 0.5em;
+    margin-top: 0.1em;
+}

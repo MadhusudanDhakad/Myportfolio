@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Quicksand:wght@300;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Quicksand:wght@300;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@300&family=Source+Sans+3:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Neucha&family=Quicksand:wght@300;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@300&family=Source+Code+Pro:wght@200&family=Source+Sans+3:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Josefin+Sans:wght@700&family=Karla:wght@280&family=Neucha&family=Quicksand:wght@280;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@280&family=Source+Code+Pro:wght@200&family=Source+Sans+3:wght@280&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+} 
+
+.container .navbar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* padding: 3em 1.4em; */
+    background-color: rgb(220 220 220);
+    font-family: Signika;
+    transition: transform 0.3s ease-in;
+}
+
+.navbar ul{
+    padding: 1em 2em 0em 0em;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 4em 2em;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    margin: 1em 0em;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.container .introduction{
+    width: 79.94vw;
+    height: 725px;
+    padding: 0em 2em;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 2em;
+}
+
+
+
+.maincontent{
+    padding-left: 4em;
+    padding-right: 1em; 
+}
+
+.intro{
+    font-size: 18px;
+}
+
+.maincontent .introduction .greetings{
+    font-family:Gruppo;
+    font-size: 3em;
+    font-weight: 100;
+    color: rgb(60, 59, 59);
+}
+
+.introduction .Myname{
+    font-family:Signika;
+    /* font-family: Josefin Sans; */
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 0.2em;
+}
+
+.introduction .about{
+    font-size: 2em;
+    margin-top: 0.2em;
+    font-family:Source Code Pro;
+    font-weight: 500;
+    /* color: rgb(41, 41, 41); */
+}
+
+.introduction .more{
+    font-size: 1em;
+    margin-top: 0.2em;
+    font-family: Neucha;
+    font-weight: 100;
+}
+
+.buttons{
+    font-size: 18px;
+    margin: 2em 0em;
+}
+
+.btn{
+    font-size: 0.8em;
+    padding: 0.8em 1.2em;
+    margin: 0em 0.5em;
+    background-color:dodgerblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 1.5em;
+    font-weight: bold;
+    /* border: 0.1en solid blue; */
+    font-family: Signika;
+}
+
+.btn:hover{
+    font-size: 0.8em;
+    padding: 0.8em 1.2em;
+    margin: 0em 0.5em;
+    background-color: white;
+    color: dodgerblue;
+    cursor: pointer;
+    border-radius: 1.5em;
+    font-weight: bold;
+    /* border: 0.1en solid blue; */
+    font-family: Signika;
+}
+
+.btn-small{
+    font-size: 0.6em;
+    padding: 0.6em 0.9em;
+    margin: 0em 0.2em;
+    background-color:dodgerblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 1.3em;
+    font-weight: bold;
+    /* border: 0.1en solid blue; */
+    font-family: Signika;
+}
+
+.btn-small:hover{
+    font-size: 0.6em;
+    padding: 0.6em 0.9em;
+    margin: 0em 0.2em;
+    background-color: white;
+    color: dodgerblue;
+    cursor: pointer;
+    border-radius: 1.3em;
+    font-weight: bold;
+    /* border: 0.1en solid blue; */
+    font-family: Signika;
+}
+
+.maincontent .profilepic img{
+    height: 400px;
+    margin-top: -7em;
+}
+
+.hidemenu{
+    transform: translate(-400px, 0px);
+    position: absolute;
+}
+
+.menubar{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.cross{
+    margin-left: 10.5em;
+    margin-top: 0.5em;
+}
+
+ @media (max-width: 1500px) {
+
+    .profilepic{
+        display: none;
+    }
+
+    .intro{
+        font-size: 10px;
+    }
+
+    .buttons{
+        font-size: 10px;
+    }
+    /* .navbar{
+        transform: translate(-400px, 0px);
+        position: absolute;
+    } */
+ }

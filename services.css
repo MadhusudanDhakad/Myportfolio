@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Gruppo&family=Inconsolata:wght@600&family=Josefin+Sans:wght@700&family=Karla:wght@280&family=Neucha&family=Quicksand:wght@280;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@280&family=Source+Code+Pro:wght@200&family=Source+Sans+3:wght@280&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Dosis:wght@200&family=Gruppo&family=Inconsolata:wght@600&family=Josefin+Sans:wght@700&family=Karla:wght@280&family=Neucha&family=Quicksand:wght@280;600&family=Rubik+Puddles&family=Shadows+Into+Light+Two&family=Signika:wght@280&family=Source+Code+Pro:wght@200&family=Source+Sans+3:wght@280&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.container {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(176, 229, 208, 1) 42%,
+    rgba(92, 202, 238, 0.41) 93.6%
+  );
+}
+
+.maincontainer {
+  height: 100vh;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.maincontainer h1 {
+  font-family: Josefin Sans;
+  margin-top: 1em;
+  font-size: 4em;
+  color: #7f7f7f;
+}
+
+hr {
+  width: 25%;
+  margin: auto;
+  min-height: 5px;
+  color: rgb(87, 86, 86);
+  box-shadow: 3px 3px 3px 1px gray;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100vh;
+  padding: 5em;
+}
+
+.services .box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  /* border: 1px solid red; */
+  background-color: whitesmoke;
+  height: 420px;
+  width: 28%;
+  padding: 2em 2.5em;
+  text-align: center;
+  border-radius: 1em;
+  transition: all 100ms linear;
+
+  box-shadow: rgba(14, 28, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 28, 37, 0.32) 0px 2px 16px 0px;
+}
+.services .box1:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  /* border: 1px solid red; */
+  background-color: whitesmoke;
+  height: 420px;
+  width: 28%;
+  padding: 2em 2.5em;
+  text-align: center;
+  border-radius: 1em;
+  box-shadow: rgba(14, 28, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 28, 37, 0.32) 0px 2px 16px 0px;
+  transform: rotate(2deg);
+}
+.box1 img {
+  height: 5em;
+  width: 5em;
+}
+.services .box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  /* border: 1px solid red; */
+  background-color: whitesmoke;
+  height: 420px;
+  width: 28%;
+  padding: 2em 2.5em;
+  text-align: center;
+  border-radius: 1em;
+  transition: all 100ms linear;
+
+  box-shadow: rgba(14, 28, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 28, 37, 0.32) 0px 2px 16px 0px;
+}
+.services .box2:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  /* border: 1px solid red; */
+  background-color: whitesmoke;
+  height: 420px;
+  width: 28%;
+  padding: 2em 2.5em;
+  text-align: center;
+  border-radius: 1em;
+  box-shadow: rgba(14, 28, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 28, 37, 0.32) 0px 2px 16px 0px;
+  transform: rotate(2deg);
+}
+.box2 img {
+  height: 5em;
+  width: 6em;
+}
+.services .box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  /* border: 1px solid red; */
+  background-color: whitesmoke;
+  height: 420px;
+  width: 28%;
+  padding: 2em 2.5em;
+  text-align: center;
+  border-radius: 1em;
+  transition: all 100ms linear;
+
+  box-shadow: rgba(14, 28, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 28, 37, 0.32) 0px 2px 16px 0px;
+}
+.services .box3:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  /* border: 1px solid red; */
+  background-color: whitesmoke;
+  height: 420px;
+  width: 28%;
+  padding: 2em 2.5em;
+  text-align: center;
+  border-radius: 1em;
+  box-shadow: rgba(14, 28, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 28, 37, 0.32) 0px 2px 16px 0px;
+  transform: rotate(2deg);
+}
+
+.box3 img {
+  height: 5em;
+  width: 5em;
+}
+
+.services p {
+  text-align: justify;
+  font-family: Dosis;
+  font-size: 1.02em;
+  font-weight: 600;
+}
+
+.services h3 {
+  font-family: Josefin Sans;
+  font-size: 1.5em;
+  color: dodgerblue;
+}
+
+.buttons a {
+  text-decoration: none;
+  /* color: white; */
+}
+
+.buttons {
+  font-size: 1em;
+  padding: 0.8em 2.5em;
+  margin: 1em 0.2em;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.3em;
+  font-weight: bold;
+  text-align: center;
+  font-family: Signika;
+  border: none;
+}
+
+.buttons:hover {
+  font-size: 1em;
+  padding: 0.8em 2.5em;
+  margin: 1em 0.2em;
+  background-color: white;
+  color: dodgerblue;
+  cursor: pointer;
+  border-radius: 0.3em;
+  font-weight: bold;
+  border: 1px solid dodgerblue;
+  font-family: Signika;
+}
